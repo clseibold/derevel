@@ -11,3 +11,7 @@ Right now, the build system can only compile a program that doesn't have any dep
 
 ## Future Features
 * Ability to have a config file to specify name and version of project and the libraries to be linked to the main program
+* Multiplatform support
+* Support clang and msvc
+* Subcommands for debug and release versions, along with `dist` subcommand to create 32-bit and 64-bit release executables for distribution (you can disallow 64-bit in config file). Creates for multiple platforms if supported compiler installed.
+* Allow `dist` command to copy over licenses for project and libraries used (and attribution file if provided) and create zip files for easy distribution.
