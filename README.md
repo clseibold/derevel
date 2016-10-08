@@ -1,5 +1,5 @@
 # Derevel
-A minimalistic and easy build system for small C projects. This is a work in progress and is nowhere near ready for use in actual software!
+A minimalistic and easy build system for small C projects. This is a work in progress and is nowhere near ready for use in actual software! Contributions are welcome.
 
 NOTE: Only tested on linux. You must have gcc installed in order to use this.
 
