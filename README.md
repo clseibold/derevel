@@ -1,7 +1,7 @@
 # Derevel
 [![Documentation Status](https://readthedocs.org/projects/derevel/badge/?version=latest)](http://derevel.readthedocs.io/en/latest/?badge=latest)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
-[![Waffle.io](https://img.shields.io/waffle/label/evancohen/smart-mirror/in%20progress.svg?maxAge=2592000)](https://waffle.io/krixano/derevel)
+[![Stories in Ready](https://badge.waffle.io/krixano/derevel.svg?label=ready&title=Ready)](http://waffle.io/krixano/derevel)
 
 A minimalistic and easy build system for small C projects. This is a work in progress and is nowhere near ready for use in actual software! Contributions are welcome.
 
