@@ -9,27 +9,30 @@ int main() {
 	if (access("main.c", F_OK) == 0) {
 		status = system("gcc *.c -o main");
 	} else {
-		// look in src/main directory
-		printf("Looking in src/main/c/\n");
+		//printf("Looking in src/main/c/\n");
 		// Check if src/main/c/ directory actually exists, error if it doesn't
 		DIR *dir = opendir("./src/main/c/");
 		if (dir) {
 			closedir(dir);
 			status = system("gcc src/main/c/*.c -o main");
 		} else if (ENOENT == errno) {
-			printf("Error: src/main/c/ directory does not exist!\n");
 			closedir(dir);
+			printf("[Error] src/main/c/ directory does not exist!\n");
+			status = 1;
 		} else {
-			printf("Error\n");
 			closedir(dir);
+			printf("[Error]\n");
+			status = 1;
 		}
 		// Add ability to create config file to specify libraries
 		// that either need to be compiled and linked to main project, or just
 		// linked!
 	}
 	if (status != 0) {
-		printf("\nError: Build Failed!\n");
+		printf("\n[Info] Build Failed! Returned error code '%d'.\n", status);
+	} else {
+		printf("\n[Info] Build Succeded! Returned error code '%d'.\n", status);
 	}
 
-	return(0);
+	return(status);
 }
