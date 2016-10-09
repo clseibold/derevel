@@ -1,4 +1,5 @@
 # Derevel
+[![Documentation Status](https://readthedocs.org/projects/derevel/badge/?version=latest)](http://derevel.readthedocs.io/en/latest/?badge=latest)
 A minimalistic and easy build system for small C projects. This is a work in progress and is nowhere near ready for use in actual software! Contributions are welcome.
 
 The goal is to have an easy, simple, and fast build system that can be used to build small and middle sized C projects with minimal configuration!
