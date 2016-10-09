@@ -5,6 +5,8 @@ The goal is to have an easy, simple, and fast build system that can be used to b
 
 NOTE: Only tested on linux. You must have gcc installed in order to use this.
 
+See documentation at: [http://derevel.readthedocs.io/en/latest/](http://derevel.readthedocs.io/en/latest/)
+
 ## Compiling
 To compile the latest version, simply run `./main`. You are using a previous version of derevel to build the next one!! This will update the main executable. Then, you can just copy the file into your projects to use it.
 
