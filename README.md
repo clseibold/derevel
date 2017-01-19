@@ -3,6 +3,8 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
 [![Stories in Ready](https://badge.waffle.io/krixano/derevel.svg?label=ready&title=Ready)](http://waffle.io/krixano/derevel)
 
+** Currently not being worked on! Instead, use [BuildWriter](https://github.com/krixano/buildwriter). **
+
 A minimalistic and easy build system for small C projects. This is a work in progress and is nowhere near ready for use in actual software! Contributions are welcome.
 
 The goal is to have an easy, simple, and fast build system that can be used to build small and middle sized C projects with minimal configuration!
